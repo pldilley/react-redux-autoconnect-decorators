@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-autoconnect-decorators",
+  "version": "1.0.0",
+  "description": "Decorators to simplify react-redux's `connect()`",
+  "main": "./lib/autoConnect.js",
+  "author": "Paul Dilley",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src -d lib",
+    "test": "jest",
+    "prepublish": "npm run compile"
+  },
+  "dependencies": {
+    "react-redux-autoconnect": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^20.0.4"
+  }
+}
