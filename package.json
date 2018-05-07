@@ -11,12 +11,12 @@
     "test": "jest",
     "prepublish": "npm run compile"
   },
-  "dependencies": {
-    "react-redux-autoconnect": "^1.0.6"
-  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "jest": "^20.0.4"
+  },
+  "peerDependencies": {
+    "react-redux": ">=3.0.0"
   }
 }
