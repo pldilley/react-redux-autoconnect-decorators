@@ -1,7 +1,8 @@
 import { autoConnect } from 'react-redux-autoconnect';
-autoConnect(null, null);
+
 const STATE = '__autoStateBuffer';
 const DISPATCH = '__autoDispatchBuffer';
+
 export function autoconnect(optionalMergePropFunction, optionalOptions) {
   return (target, name, descriptor) => {
     const self = _getGlobalScope();
