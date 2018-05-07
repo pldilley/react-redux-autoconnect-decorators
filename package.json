@@ -2,7 +2,7 @@
   "name": "react-redux-autoconnect-decorators",
   "version": "1.0.0",
   "description": "Decorators to simplify react-redux's `connect()`",
-  "main": "./lib/autoConnect.js",
+  "main": "./src/reduxDecorators.js",
   "author": "Paul Dilley",
   "license": "MIT",
   "scripts": {
