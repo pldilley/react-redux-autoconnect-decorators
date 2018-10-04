@@ -1,3 +1,7 @@
+/*
+ * REDUX DECORATORS - ALPHA FILE JUST FOR DEVELOPMENT, WILL USE MODULE
+ */
+
 import { connect } from 'react-redux';
 
 const STATE = '__autoStateBuffer';
@@ -48,8 +52,8 @@ export function State(optionalPathFn, _includeOwnProps) {
 
     globalState.push((state, ownProps) => ({
       [name]: optionalPathFn
-        ? (_includeOwnProps ? optionalPathFn(ownProps, state) : optionalPathFn(state))
-        : state[name]
+                ? (_includeOwnProps ? optionalPathFn(ownProps, state) : optionalPathFn(state))
+                : state[name]
     }));
   }
 }
